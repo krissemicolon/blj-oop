@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="200.0" prefWidth="500.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="A2.Controller">
+   <Button fx:id="calculateButton" layoutX="377.0" layoutY="32.0" mnemonicParsing="false" onAction="#calculate" prefHeight="89.0" prefWidth="96.0" text="Calculate">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <Button fx:id="exitButton" layoutX="375.0" layoutY="145.0" mnemonicParsing="false" onAction="#exit" prefHeight="32.0" prefWidth="100.0" text="Exit">
+      <font>
+         <Font size="16.0" />
+      </font>
+   </Button>
+   <TextField fx:id="widthField" layoutX="148.0" layoutY="32.0" prefHeight="32.0" prefWidth="184.0" />
+   <TextField fx:id="heightField" layoutX="148.0" layoutY="89.0" prefHeight="32.0" prefWidth="184.0" />
+   <TextField fx:id="resultField" layoutX="148.0" layoutY="145.0" prefHeight="32.0" prefWidth="184.0" />
+   <Label layoutX="26.0" layoutY="33.0" prefHeight="32.0" prefWidth="122.0" text="Width of Rectangle" />
+   <Label layoutX="26.0" layoutY="89.0" prefHeight="32.0" prefWidth="122.0" text="Height of Rectangle" />
+   <Label layoutX="26.0" layoutY="146.0" prefHeight="32.0" prefWidth="122.0" text="Result" />
+</AnchorPane>
