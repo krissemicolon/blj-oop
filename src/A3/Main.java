@@ -11,8 +11,8 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         Parent root = FXMLLoader.load(getClass().getResource("design.fxml"));
-        primaryStage.setTitle("Rectangle Calculator");
-        primaryStage.setScene(new Scene(root, 500, 200));
+        primaryStage.setTitle("Earth to Moon Calculator");
+        primaryStage.setScene(new Scene(root, 320, 360));
         primaryStage.show();
     }
 
